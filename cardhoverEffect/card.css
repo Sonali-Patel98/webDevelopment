@@ -1,0 +1,23 @@
+.cards{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    display:inline-block;
+    vertical-align: top;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px black;
+}
+img{
+    width: 50%;
+    border-radius: 5px 5px 0 0;
+}
+h1,h4{
+    margin: 4px 0;
+}
+.desc{
+    padding-left:2px;
+}
+.cards:hover{
+    box-shadow: 2px 4px 20px black;
+}
