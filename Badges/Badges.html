@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="Badges.css">
+    <link rel="styleSheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Example Heading<span class="badge bg-primary rounded-pill">Notifications</span></h1>
+    <h1>
+        <span class="badge bg-danger">Notifications
+            <span class="badge bg-primary">4</span>
+        </span>
+    </h1>
+    <button type="button" class="btn btn-primary position-relative rounded-pill">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">Unread messages</span>
+        </span>
+    </button>
+</body>
+</html>
