@@ -1,0 +1,23 @@
+#outer{
+    height:200px;
+    width:200px;
+    background-color: yellowgreen;
+    margin:25px 25px;
+    margin:0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+#inner{
+    height: 200px;
+    width:200px;
+    color:white;
+    background-color: black;
+    margin: 25px 50px;
+    transition:margin-right 2s ease-in 0.5s;
+}
+#outer:hover{
+    margin-top:400px;
+    /* margin-right:400px; */
+}
+#inner:hover{
+    margin-right:400px;
+}

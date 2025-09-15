@@ -1,0 +1,10 @@
+div{
+    height: 600px;
+    width:400px;
+    background-color: yellowgreen;
+    text-align: center;
+    margin:0 auto;
+    background-image:url("back-image.jpg");
+    background-size:cover;
+    color: white;
+}
